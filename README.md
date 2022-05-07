@@ -17,7 +17,7 @@ https://eicu-crd.mit.edu/gettingstarted/access/. Follow instructions here to gai
 https://physionet.org/content/mimiciii/1.4/. Dataset can be accessed here.
 
 
-Preprocessing Code
+Preprocessing Code:
 Change the directories in dl4h_final_project_preprocess.py to desired locations. Run file.
 
 Training Code
