@@ -8,7 +8,11 @@ Citation to the original repo:
 Barbieri, S., Kemp, J., Perez-Concha, O. et al. Benchmarking Deep Learning Architectures for Predicting Readmission to the ICU and Describing Patients-at-Risk.(2020). Github Repository. \url{https://github.com/sebbarb/time_aware_attention}
 
 
-Dependencies?
+Dependencies:import pandas as pd
+import numpy as np
+import pickle
+from tqdm import tqdm
+from pdb import set_trace as bp
 
 
 Data Download Instructions:
