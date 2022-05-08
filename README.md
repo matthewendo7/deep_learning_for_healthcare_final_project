@@ -28,7 +28,7 @@ For example, if you wish to run the RNN+ODE model, comment line 36 in the code, 
 Change (uncomment desired model and comment others) to desired model in hyperparameters.py, same as above. **Run test.py.**
 
 ## Table of Results
-| **Model** | **Average Precision** | **AUROC** | **F1** | **PPV** | **NPV** | **Sensitivity** | **Specificity** | **Time** |
+| **Model** | **Average Precision** | **AUROC** | **F1** | **PPV** | **NPV** | **Sensitivity** | **Specificity** | **Time (minutes)** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |**Logistic Regression** |0.257 [0.248,0.265] |0.663 [0.66,0.667] |0.3 [0.296,0.304] |0.987 [0.969,1.005] |0.883 [0.882,0.885] |0.596 [0.586,0.607] |0.667 [0.656,0.678] |0.244 |
 |**Attention** |0.294 [0.286,0.303] |0.72 [0.717,0.723] |0.344 [0.34,0.349] |0.943 [0.91,0.976] |0.883 [0.881,0.884] |0.653 [0.643,0.663] |0.683 [0.674,0.692] |30.857 [26.985,34.728] std: 17.288 |
