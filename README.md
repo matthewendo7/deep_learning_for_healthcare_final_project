@@ -13,15 +13,15 @@ torch, pandas, numpy, pickle, sklearn, scipy.stats, tqdm, pdb, os
 
 
 ## Data Download Instructions:
-https://eicu-crd.mit.edu/gettingstarted/access/. Follow instructions here to gain access.
-https://physionet.org/content/mimiciii/1.4/. Dataset can be accessed here.
+Follow instructions here to gain access: https://eicu-crd.mit.edu/gettingstarted/access/ \
+Dataset can be accessed here (with proper training): https://physionet.org/content/mimiciii/1.4/
 
 
 ## Preprocessing Code:
 Change the directories in dl4h_final_project_preprocess.py (lines 8-9) to desired locations on your local machine. Run the file.
 
 ## Training Code
-Change (uncomment desired model and comment others) to desired model in hyperparameters.py (lines 30-42). Run **train.py.**
+Change (uncomment desired model and comment others) to desired model in hyperparameters.py (lines 30-42). Run **train.py.** \
 For example, if you wish to run the RNN+ODE model, comment line 36 in the code, and then uncomment line 34.
 
 ## Evaluation Code
@@ -44,4 +44,5 @@ Change (uncomment desired model and comment others) to desired model in hyperpar
 |**RNN (exp time decay)** |0.292 [0.286,0.299] |0.734 [0.731,0.737] |0.367 [0.362,0.371] |0.981 [0.968,0.995] |0.881 [0.88,0.883] |0.725 [0.716,0.735] |0.652 [0.644,0.661] |911.051 [904.413,917.689] std: 29.642 |
 |**RNN (concat Δtime)+Attention** |0.299 [0.292,0.307] |0.738 [0.735,0.741] |0.356 [0.352,0.361] |0.929 [0.903,0.956] |0.882 [0.881,0.883] |0.709 [0.697,0.721] |0.652 [0.64,0.663] |171.286 [170.583,171.988] std: 3.138 |
 |**RNN (concat Δtime)** |0.3 [0.293,0.308] |0.734 [0.732,0.737] |0.363 [0.359,0.368] |0.984 [0.968,1.0] |0.881 [0.88,0.883] |0.65 [0.64,0.66] |0.718 [0.706,0.729] |164.282 [163.412,165.151] std: 3.884 |
+
 *unlike the original paper, we included times in our results to help those who are interested in reproducing the results have an idea of how long each model will take to run*
