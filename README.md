@@ -21,10 +21,10 @@ https://physionet.org/content/mimiciii/1.4/. Dataset can be accessed here.
 Change the directories in dl4h_final_project_preprocess.py to desired locations. Run file.
 
 ## Training Code
-
+Change (uncomment desired model and comment others) to desired model in hyperparameters.py. Run train.py.
 
 ## Evaluation Code
-
+Change (uncomment desired model and comment others) to desired model in hyperparameters.py. Run test.py.
 
 ## Table of Results
 | Model | Average Precision | AUROC | F1 | PPV | NPV | Sensitivity | Specificity | Time |
