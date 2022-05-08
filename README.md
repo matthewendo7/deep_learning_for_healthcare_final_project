@@ -27,3 +27,5 @@ Evaluation Code
 
 
 Table of Results
+| Model | Average Precision | AUROC | F1 | PPV | NPV | Sensitivity | Specificity | Time |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
