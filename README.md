@@ -8,25 +8,25 @@ Citation to the original repo:
 Barbieri, S., Kemp, J., Perez-Concha, O. et al. Benchmarking Deep Learning Architectures for Predicting Readmission to the ICU and Describing Patients-at-Risk.(2020). Github Repository. \url{https://github.com/sebbarb/time_aware_attention}
 
 
-Dependencies:
+## Dependencies:
 torch, pandas, numpy, pickle, sklearn, scipy.stats, tqdm, pdb, os
 
 
-Data Download Instructions:
+## Data Download Instructions:
 https://eicu-crd.mit.edu/gettingstarted/access/. Follow instructions here to gain access.
 https://physionet.org/content/mimiciii/1.4/. Dataset can be accessed here.
 
 
-Preprocessing Code:
+## Preprocessing Code:
 Change the directories in dl4h_final_project_preprocess.py to desired locations. Run file.
 
-Training Code
+## Training Code
 
 
-Evaluation Code
+## Evaluation Code
 
 
-Table of Results
+## Table of Results
 | Model | Average Precision | AUROC | F1 | PPV | NPV | Sensitivity | Specificity | Time |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |Logistic Regression |0.257 [0.248,0.265] |0.663 [0.66,0.667] |0.3 [0.296,0.304] |0.987 [0.969,1.005] |0.883 [0.882,0.885] |0.596 [0.586,0.607] |0.667 [0.656,0.678] |-- |
